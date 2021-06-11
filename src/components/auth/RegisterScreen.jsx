@@ -55,7 +55,10 @@ export const RegisterScreen = () => {
         </div>
       )}
 
-      <form onSubmit={handleRegister}>
+      <form
+        className="animate__animated animate__fadeIn animate__faster"
+        onSubmit={handleRegister}
+      >
         <input
           className="auth__input"
           type="text"
